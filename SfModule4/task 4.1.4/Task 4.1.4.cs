@@ -1,11 +1,11 @@
 ﻿namespace SfModule4
 {
-    internal class Program
+class Task414
     {
         static void Main(string[] args)
         {
-            string A;
-            string B;
+            int A = 2;
+            int B = 1;
             bool C = A != B;
         }
     }

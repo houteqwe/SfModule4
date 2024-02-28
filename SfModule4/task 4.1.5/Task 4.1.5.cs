@@ -5,10 +5,10 @@ namespace SfModule4
     {
         public static void Main(string[] args)
         {
-            int A;
-            int B;
-            double X;
-            double Y;
+            int A = 2;
+            int B = 3;
+            double X = 5;
+            double Y = 4;
 
             bool C = (A < B) | (X > Y);
         }
