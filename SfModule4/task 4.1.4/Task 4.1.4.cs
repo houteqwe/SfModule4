@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string A;
+            string B;
+            bool C = A != B;
         }
     }
 }
