@@ -22,6 +22,17 @@ namespace FinalTaskModule4
             User.Login = Console.ReadLine();
             User.LoginLength = User.Login.Length;
 
+            Console.WriteLine("Есть ли у вас животные? Да или Нет");
+            var meaning = Console.ReadLine();
+            if (meaning == "Да");
+            {
+                User.Pet = true;
+            }
+            if (meaning != "Да") ;
+            {
+                User.Pet = false;
+            }
+
         }
     }
 }
