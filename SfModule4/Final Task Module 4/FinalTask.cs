@@ -12,6 +12,16 @@ namespace FinalTaskModule4
         {
             (string fName, string lName, string Login, int LoginLength, bool Pet, double Age, string favColors) User;
 
+            Console.WriteLine("Введите имя");
+            User.fName = Console.ReadLine();
 
+            Console.WriteLine("Введите фамилию");
+            User.lName = Console.ReadLine();
+
+            Console.WriteLine("Введите логин");
+            User.Login = Console.ReadLine();
+            User.LoginLength = User.Login.Length;
+
+        }
     }
 }
